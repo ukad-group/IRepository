@@ -8,10 +8,10 @@
     <Description>Interface for general repository pattern implementation</Description>
     <RepositoryUrl>https://github.com/ukad-group/IRepository</RepositoryUrl>
     <PackageId>UkadGroup.IRepository</PackageId>
-    <PackageReleaseNotes>initeal release</PackageReleaseNotes>
+    <PackageReleaseNotes>initial release</PackageReleaseNotes>
     <RepositoryType>C#</RepositoryType>
     <PackageProjectUrl>https://github.com/ukad-group/IRepository</PackageProjectUrl>
-    <PackageTags>MIT</PackageTags>
+    <PackageTags>IRepository</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
