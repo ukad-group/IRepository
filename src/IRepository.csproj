@@ -5,7 +5,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Company>Ukad-Group</Company>
     <Authors>Ukad-Group</Authors>
-    <Description>Interface for general repository pattern implementation</Description>
+    <Description>Interface for generic repository pattern implementation</Description>
     <RepositoryUrl>https://github.com/ukad-group/IRepository</RepositoryUrl>
     <PackageId>UkadGroup.IRepository</PackageId>
     <PackageReleaseNotes>initial release</PackageReleaseNotes>
@@ -13,6 +13,7 @@
     <PackageProjectUrl>https://github.com/ukad-group/IRepository</PackageProjectUrl>
     <PackageTags>IRepository</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>
