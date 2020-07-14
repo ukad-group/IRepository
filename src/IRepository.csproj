@@ -2,6 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company>Ukad-Group</Company>
+    <Authors>Ukad-Group</Authors>
+    <Description>Interface for general repository pattern implementation</Description>
+    <RepositoryUrl>https://github.com/ukad-group/IRepository</RepositoryUrl>
+    <PackageId>UkadGroup.IRepository</PackageId>
+    <PackageReleaseNotes>initeal release</PackageReleaseNotes>
+    <RepositoryType>C#</RepositoryType>
+    <PackageProjectUrl>https://github.com/ukad-group/IRepository</PackageProjectUrl>
+    <PackageTags>MIT</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
 </Project>
