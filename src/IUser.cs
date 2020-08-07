@@ -6,5 +6,8 @@ namespace System.Data
         string Alias { get; set; }
         string PasswordHash { get; set; }
         string Email { get; set; }
+        string NormalizedEmail { get; set; }
+        string NormalizedAlias { get; set; }
+        bool IsDeleted { get; set; }
     }
 }
