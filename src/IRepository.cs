@@ -25,6 +25,7 @@ namespace System.Data
         void SaveChanges();
         Task SaveChangesAsync(CancellationToken ct = default);
         IQueryable<TEntity> Include<TProperty>(Expression<Func<TEntity, TProperty>> xFunc);
-        IQueryable<TEntity> Include<TProperty>(IQueryable<TEntity> querable, Expression<Func<TEntity, TProperty>> xFunc);
+        IQueryable<TEntity> Include<TProperty>(IQueryable<TEntity> queryable, Expression<Func<TEntity, TProperty>> xFunc);
+        void Patch<TProperty>(TEntity entity, Expression<Func<TEntity, TProperty>> propertyExpression);
     }
 }
